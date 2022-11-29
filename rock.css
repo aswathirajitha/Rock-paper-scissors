@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(to right, #9c8aec, #f872f8);
+}
+
+button{
+    background-color: #ffffff;
+} 
+
+.btn{
+    margin-top: 1px;
+
+}
+#i1{
+    margin-left: 400px;
+}
+.text-center{
+	color:rgb(248, 244, 11);	
+	text-transform:uppercase;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+	font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-center1{
+	color:rgb(248, 11, 11);
+	text-transform:uppercase;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+	font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.container{
+    display: flex;
+    margin-left: 200px;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(41, 40, 40);
+    height: 200px;
+}
+.show i{
+    font-size: 100px;
+    color: orange;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}

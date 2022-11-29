@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rock.css">
+   
+
+</head>
+<body>
+    <span class="text-center">ROCK PAPPER SCISSORS</span><br><br>
+    <span class="text-center1">Try your luck !</span>
+
+
+    <div class="container">
+        <div class="section">
+            <div class="info">
+                <h3>You :</h3><h3 id="pscore">0</h3>
+            </div>
+            <div class="show">
+                <img src="" width="200" height="150" alt="" id="im">            
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="info">
+                <h3>Computer :</h3><h3 id="cscore">0</h3>
+            </div>
+            <div class="show computer">
+                <img src="" width="200" height="150" alt="" id="im2">               
+            </div>
+        </div>
+    </div>
+    <h2 style="color: rgb(233, 33, 19);text-align: center;" id="demo1">Choose One !</h2>
+    <h2 style="color: rgb(11, 12, 11);text-align: center;" id="m"></h2>
+    <div class="btn">
+    
+    <button onclick="clk(1)" class="btn btn-default" id="i1">
+        <img src="/rock.jpg" width="150" height="100"  /> 
+    </button>
+    <button onclick="clk(2)" class="btn btn-default" id="2" >
+        <img src="/papper.jpg" width="150"  height="100"  /> 
+    </button>
+    <button onclick="clk(3)" class="btn btn-default" id="3" >
+        <img src="/scissor.jpg" width="150"  height="100" /> 
+    </button>
+    
+</div>
+<script src="rock.js"></script>  
+</body>
+</html>
